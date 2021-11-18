@@ -1,0 +1,946 @@
+-- By LLaynx
+
+-- Instances:
+
+local BaNaNa = Instance.new("ScreenGui")
+local LoginFrame = Instance.new("Frame")
+local Title = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local Passwrd = Instance.new("TextBox")
+local UICorner_2 = Instance.new("UICorner")
+local Login = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Main = Instance.new("Frame")
+local UICorner_4 = Instance.new("UICorner")
+local Title_2 = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+local CommandButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local CommandFrame = Instance.new("Frame")
+local UICorner_7 = Instance.new("UICorner")
+local nfBut = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local FreeAnim = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local Noclip = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local Xray = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Grav = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Lig = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local Afk = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Speed = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local jumpPow = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local SpeedText = Instance.new("TextBox")
+local UICorner_17 = Instance.new("UICorner")
+local JumpText = Instance.new("TextBox")
+local UICorner_18 = Instance.new("UICorner")
+local Tp = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local Fly = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local GameButton = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local AboutButton = Instance.new("TextButton")
+local UICorner_22 = Instance.new("UICorner")
+local GameFrame = Instance.new("Frame")
+local UICorner_23 = Instance.new("UICorner")
+local aut = Instance.new("TextButton")
+local UICorner_24 = Instance.new("UICorner")
+local isl = Instance.new("TextButton")
+local UICorner_25 = Instance.new("UICorner")
+local UwU = Instance.new("TextButton")
+local UICorner_26 = Instance.new("UICorner")
+local Animalsim = Instance.new("TextButton")
+local UICorner_27 = Instance.new("UICorner")
+local Admin = Instance.new("TextButton")
+local UICorner_28 = Instance.new("UICorner")
+local MM2 = Instance.new("TextButton")
+local UICorner_29 = Instance.new("UICorner")
+local finge = Instance.new("TextButton")
+local UICorner_30 = Instance.new("UICorner")
+local Dex = Instance.new("TextButton")
+local UICorner_31 = Instance.new("UICorner")
+local Car = Instance.new("TextButton")
+local UICorner_32 = Instance.new("UICorner")
+local AboutFrame = Instance.new("Frame")
+local UICorner_33 = Instance.new("UICorner")
+local Owner = Instance.new("TextLabel")
+local UICorner_34 = Instance.new("UICorner")
+local Dc = Instance.new("TextLabel")
+local UICorner_35 = Instance.new("UICorner")
+local Yout = Instance.new("TextLabel")
+local UICorner_36 = Instance.new("UICorner")
+local Aboutdsd = Instance.new("TextLabel")
+local UICorner_37 = Instance.new("UICorner")
+local Version = Instance.new("TextLabel")
+local Close = Instance.new("TextButton")
+local Open = Instance.new("TextButton")
+local UICorner_38 = Instance.new("UICorner")
+
+--Properties:
+
+BaNaNa.Name = "BaNaNa"
+BaNaNa.Parent = game.CoreGui
+BaNaNa.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+LoginFrame.Name = "LoginFrame"
+LoginFrame.Parent = BaNaNa
+LoginFrame.Active = true
+LoginFrame.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+LoginFrame.BorderColor3 = Color3.fromRGB(255, 0, 0)
+LoginFrame.Position = UDim2.new(0.470725983, 0, 0.399686515, 0)
+LoginFrame.Size = UDim2.new(0.111631535, 0, 0.32601881, 0)
+LoginFrame.Draggable = true
+LoginFrame.Active = true
+
+Title.Name = "Title"
+Title.Parent = LoginFrame
+Title.BackgroundColor3 = Color3.fromRGB(101, 0, 152)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0, 0, 0.0276816618, 0)
+Title.Size = UDim2.new(1, 0, 0.103806227, 0)
+
+TextLabel.Parent = Title
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Size = UDim2.new(1, 0, 1.06522429, 0)
+TextLabel.Font = Enum.Font.RobotoCondensed
+TextLabel.Text = "BaNaNa_Hub"
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner.Parent = LoginFrame
+
+Passwrd.Name = "Passwrd"
+Passwrd.Parent = LoginFrame
+Passwrd.BackgroundColor3 = Color3.fromRGB(101, 0, 152)
+Passwrd.BorderSizePixel = 0
+Passwrd.Position = UDim2.new(0.122641511, 0, 0.36678201, 0)
+Passwrd.Size = UDim2.new(0.75, 0, 0.15916957, 0)
+Passwrd.Font = Enum.Font.RobotoMono
+Passwrd.Text = "Password"
+Passwrd.TextColor3 = Color3.fromRGB(0, 0, 0)
+Passwrd.TextScaled = true
+Passwrd.TextSize = 14.000
+Passwrd.TextWrapped = true
+
+UICorner_2.Parent = Passwrd
+
+Login.Name = "Login"
+Login.Parent = LoginFrame
+Login.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Login.Position = UDim2.new(0.21226415, 0, 0.626297593, 0)
+Login.Size = UDim2.new(0.570754707, 0, 0.176470593, 0)
+Login.Font = Enum.Font.SourceSans
+Login.Text = "Login"
+Login.TextColor3 = Color3.fromRGB(255, 255, 255)
+Login.TextScaled = true
+Login.TextSize = 14.000
+Login.TextWrapped = true
+
+UICorner_3.Parent = Login
+
+Main.Name = "Main"
+Main.Parent = BaNaNa
+Main.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Main.Position = UDim2.new(0.390320003, 0, 0.313479602, 0)
+Main.Size = UDim2.new(0.270860076, 0, 0.460815042, 0)
+Main.Visible = false
+Main.Draggable = true
+Main.Active = true
+
+UICorner_4.Parent = Main
+
+Title_2.Name = "Title"
+Title_2.Parent = Main
+Title_2.BackgroundColor3 = Color3.fromRGB(101, 0, 152)
+Title_2.Size = UDim2.new(1, 0, 0.111872144, 0)
+Title_2.Font = Enum.Font.SourceSans
+Title_2.Text = "BaNaNa_Hub"
+Title_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+Title_2.TextScaled = true
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+
+UICorner_5.Parent = Title_2
+
+CommandButton.Name = "CommandButton"
+CommandButton.Parent = Main
+CommandButton.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+CommandButton.Position = UDim2.new(0.0165441185, 0, 0.155251145, 0)
+CommandButton.Size = UDim2.new(0.110294111, 0, 0.12328767, 0)
+CommandButton.Font = Enum.Font.RobotoCondensed
+CommandButton.Text = "Command"
+CommandButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+CommandButton.TextScaled = true
+CommandButton.TextSize = 14.000
+CommandButton.TextWrapped = true
+
+UICorner_6.Parent = CommandButton
+
+CommandFrame.Name = "CommandFrame"
+CommandFrame.Parent = Main
+CommandFrame.BackgroundColor3 = Color3.fromRGB(193, 5, 255)
+CommandFrame.Position = UDim2.new(0.139705881, 0, 0.118721463, 0)
+CommandFrame.Size = UDim2.new(0.860294104, 0, 0.881278515, 0)
+
+UICorner_7.Parent = CommandFrame
+
+nfBut.Name = "İnfBut"
+nfBut.Parent = CommandFrame
+nfBut.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+nfBut.Position = UDim2.new(0.042185206, 0, 0.0412615053, 0)
+nfBut.Size = UDim2.new(0.258547008, 0, 0.139896378, 0)
+nfBut.Font = Enum.Font.RobotoCondensed
+nfBut.Text = "İnf Jump"
+nfBut.TextColor3 = Color3.fromRGB(255, 255, 255)
+nfBut.TextScaled = true
+nfBut.TextSize = 14.000
+nfBut.TextWrapped = true
+
+UICorner_8.Parent = nfBut
+
+FreeAnim.Name = "FreeAnim"
+FreeAnim.Parent = CommandFrame
+FreeAnim.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+FreeAnim.Position = UDim2.new(0.369108289, 0, 0.0412615053, 0)
+FreeAnim.Size = UDim2.new(0.258547008, 0, 0.139896378, 0)
+FreeAnim.Font = Enum.Font.RobotoCondensed
+FreeAnim.Text = "Free Animations"
+FreeAnim.TextColor3 = Color3.fromRGB(255, 255, 255)
+FreeAnim.TextScaled = true
+FreeAnim.TextSize = 14.000
+FreeAnim.TextWrapped = true
+
+UICorner_9.Parent = FreeAnim
+
+Noclip.Name = "Noclip"
+Noclip.Parent = CommandFrame
+Noclip.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Noclip.Position = UDim2.new(0.681074083, 0, 0.0412615053, 0)
+Noclip.Size = UDim2.new(0.258547008, 0, 0.139896378, 0)
+Noclip.Font = Enum.Font.RobotoCondensed
+Noclip.Text = "Size"
+Noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
+Noclip.TextScaled = true
+Noclip.TextSize = 14.000
+Noclip.TextWrapped = true
+
+UICorner_10.Parent = Noclip
+
+Xray.Name = "Xray"
+Xray.Parent = CommandFrame
+Xray.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Xray.Position = UDim2.new(0.369108289, 0, 0.238152698, 0)
+Xray.Size = UDim2.new(0.258547008, 0, 0.139896378, 0)
+Xray.Font = Enum.Font.RobotoCondensed
+Xray.Text = "XRay: Off"
+Xray.TextColor3 = Color3.fromRGB(255, 255, 255)
+Xray.TextScaled = true
+Xray.TextSize = 14.000
+Xray.TextWrapped = true
+
+UICorner_11.Parent = Xray
+
+Grav.Name = "Grav"
+Grav.Parent = CommandFrame
+Grav.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Grav.Position = UDim2.new(0.0421852171, 0, 0.238152698, 0)
+Grav.Size = UDim2.new(0.258547008, 0, 0.139896378, 0)
+Grav.Font = Enum.Font.RobotoCondensed
+Grav.Text = "Gravity: Off"
+Grav.TextColor3 = Color3.fromRGB(255, 255, 255)
+Grav.TextScaled = true
+Grav.TextSize = 14.000
+Grav.TextWrapped = true
+
+UICorner_12.Parent = Grav
+
+Lig.Name = "Lig"
+Lig.Parent = CommandFrame
+Lig.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Lig.Position = UDim2.new(0.681074142, 0, 0.238152698, 0)
+Lig.Size = UDim2.new(0.258547008, 0, 0.139896378, 0)
+Lig.Font = Enum.Font.RobotoCondensed
+Lig.Text = "Light: Off"
+Lig.TextColor3 = Color3.fromRGB(255, 255, 255)
+Lig.TextScaled = true
+Lig.TextSize = 14.000
+Lig.TextWrapped = true
+
+UICorner_13.Parent = Lig
+
+Afk.Name = "Afk"
+Afk.Parent = CommandFrame
+Afk.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Afk.Position = UDim2.new(0.369108289, 0, 0.429862529, 0)
+Afk.Size = UDim2.new(0.258547008, 0, 0.139896378, 0)
+Afk.Font = Enum.Font.RobotoCondensed
+Afk.Text = "Anti Afk"
+Afk.TextColor3 = Color3.fromRGB(255, 255, 255)
+Afk.TextScaled = true
+Afk.TextSize = 14.000
+Afk.TextWrapped = true
+
+UICorner_14.Parent = Afk
+
+Speed.Name = "Speed"
+Speed.Parent = CommandFrame
+Speed.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Speed.Position = UDim2.new(0.0913305134, 0, 0.629344404, 0)
+Speed.Size = UDim2.new(0.258547008, 0, 0.139896378, 0)
+Speed.Font = Enum.Font.RobotoCondensed
+Speed.Text = "Speed"
+Speed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Speed.TextScaled = true
+Speed.TextSize = 14.000
+Speed.TextWrapped = true
+
+UICorner_15.Parent = Speed
+
+jumpPow.Name = "jumpPow"
+jumpPow.Parent = CommandFrame
+jumpPow.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+jumpPow.Position = UDim2.new(0.0913305134, 0, 0.815872908, 0)
+jumpPow.Size = UDim2.new(0.258547008, 0, 0.139896378, 0)
+jumpPow.Font = Enum.Font.RobotoCondensed
+jumpPow.Text = "JumpPower"
+jumpPow.TextColor3 = Color3.fromRGB(255, 255, 255)
+jumpPow.TextScaled = true
+jumpPow.TextSize = 14.000
+jumpPow.TextWrapped = true
+
+UICorner_16.Parent = jumpPow
+
+SpeedText.Name = "SpeedText"
+SpeedText.Parent = CommandFrame
+SpeedText.BackgroundColor3 = Color3.fromRGB(101, 0, 152)
+SpeedText.Position = UDim2.new(0.476495743, 0, 0.629533648, 0)
+SpeedText.Size = UDim2.new(0.427350432, 0, 0.129533678, 0)
+SpeedText.Font = Enum.Font.SciFi
+SpeedText.Text = "..."
+SpeedText.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedText.TextScaled = true
+SpeedText.TextSize = 14.000
+SpeedText.TextWrapped = true
+
+UICorner_17.Parent = SpeedText
+
+JumpText.Name = "JumpText"
+JumpText.Parent = CommandFrame
+JumpText.BackgroundColor3 = Color3.fromRGB(101, 0, 152)
+JumpText.Position = UDim2.new(0.476495743, 0, 0.823834181, 0)
+JumpText.Size = UDim2.new(0.427350432, 0, 0.129533678, 0)
+JumpText.Font = Enum.Font.SciFi
+JumpText.Text = "..."
+JumpText.TextColor3 = Color3.fromRGB(0, 0, 0)
+JumpText.TextScaled = true
+JumpText.TextSize = 14.000
+JumpText.TextWrapped = true
+
+UICorner_18.Parent = JumpText
+
+Tp.Name = "Tp"
+Tp.Parent = CommandFrame
+Tp.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Tp.Position = UDim2.new(0.0421852171, 0, 0.429862529, 0)
+Tp.Size = UDim2.new(0.258547008, 0, 0.139896378, 0)
+Tp.Font = Enum.Font.RobotoCondensed
+Tp.Text = "ClickTp"
+Tp.TextColor3 = Color3.fromRGB(255, 255, 255)
+Tp.TextScaled = true
+Tp.TextSize = 14.000
+Tp.TextWrapped = true
+
+UICorner_19.Parent = Tp
+
+Fly.Name = "Fly"
+Fly.Parent = CommandFrame
+Fly.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Fly.Position = UDim2.new(0.681074142, 0, 0.429862529, 0)
+Fly.Size = UDim2.new(0.258547008, 0, 0.139896378, 0)
+Fly.Font = Enum.Font.RobotoCondensed
+Fly.Text = "Fly"
+Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fly.TextScaled = true
+Fly.TextSize = 14.000
+Fly.TextWrapped = true
+
+UICorner_20.Parent = Fly
+
+GameButton.Name = "GameButton"
+GameButton.Parent = Main
+GameButton.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+GameButton.Position = UDim2.new(0.0165441185, 0, 0.301369846, 0)
+GameButton.Size = UDim2.new(0.110294111, 0, 0.12328767, 0)
+GameButton.Font = Enum.Font.RobotoCondensed
+GameButton.Text = "Game Script"
+GameButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+GameButton.TextScaled = true
+GameButton.TextSize = 14.000
+GameButton.TextWrapped = true
+
+UICorner_21.Parent = GameButton
+
+AboutButton.Name = "AboutButton"
+AboutButton.Parent = Main
+AboutButton.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+AboutButton.Position = UDim2.new(0.0165441185, 0, 0.452054799, 0)
+AboutButton.Size = UDim2.new(0.110294111, 0, 0.12328767, 0)
+AboutButton.Font = Enum.Font.RobotoCondensed
+AboutButton.Text = "About"
+AboutButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+AboutButton.TextScaled = true
+AboutButton.TextSize = 14.000
+AboutButton.TextWrapped = true
+
+UICorner_22.Parent = AboutButton
+
+GameFrame.Name = "GameFrame"
+GameFrame.Parent = Main
+GameFrame.BackgroundColor3 = Color3.fromRGB(193, 5, 255)
+GameFrame.Position = UDim2.new(0.139705881, 0, 0.118721463, 0)
+GameFrame.Size = UDim2.new(0.860294104, 0, 0.881278515, 0)
+GameFrame.Visible = false
+
+UICorner_23.Parent = GameFrame
+
+aut.Name = "aut"
+aut.Parent = GameFrame
+aut.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+aut.Position = UDim2.new(0.040048562, 0, 0.0231045634, 0)
+aut.Size = UDim2.new(0.281995118, 0, 0.15486607, 0)
+aut.Font = Enum.Font.RobotoCondensed
+aut.Text = "A Universal Time"
+aut.TextColor3 = Color3.fromRGB(255, 255, 255)
+aut.TextScaled = true
+aut.TextSize = 14.000
+aut.TextWrapped = true
+
+UICorner_24.Parent = aut
+
+isl.Name = "isl"
+isl.Parent = GameFrame
+isl.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+isl.Position = UDim2.new(0.356065005, 0, 0.0231045634, 0)
+isl.Size = UDim2.new(0.281995118, 0, 0.15486607, 0)
+isl.Font = Enum.Font.RobotoCondensed
+isl.Text = "Islands"
+isl.TextColor3 = Color3.fromRGB(255, 255, 255)
+isl.TextScaled = true
+isl.TextSize = 14.000
+isl.TextWrapped = true
+
+UICorner_25.Parent = isl
+
+UwU.Name = "UwU"
+UwU.Parent = GameFrame
+UwU.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+UwU.Position = UDim2.new(0.675054669, 0, 0.0231045634, 0)
+UwU.Size = UDim2.new(0.281995118, 0, 0.15486607, 0)
+UwU.Font = Enum.Font.RobotoCondensed
+UwU.Text = "Owl Hub"
+UwU.TextColor3 = Color3.fromRGB(255, 255, 255)
+UwU.TextScaled = true
+UwU.TextSize = 14.000
+UwU.TextWrapped = true
+
+UICorner_26.Parent = UwU
+
+Animalsim.Name = "Animalsim"
+Animalsim.Parent = GameFrame
+Animalsim.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Animalsim.Position = UDim2.new(0.353444219, 0, 0.428054988, 0)
+Animalsim.Size = UDim2.new(0.281995118, 0, 0.15486607, 0)
+Animalsim.Font = Enum.Font.RobotoCondensed
+Animalsim.Text = "Animal Simulator"
+Animalsim.TextColor3 = Color3.fromRGB(255, 255, 255)
+Animalsim.TextScaled = true
+Animalsim.TextSize = 14.000
+Animalsim.TextWrapped = true
+
+UICorner_27.Parent = Animalsim
+
+Admin.Name = "Admin"
+Admin.Parent = GameFrame
+Admin.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Admin.Position = UDim2.new(0.0378046632, 0, 0.428054988, 0)
+Admin.Size = UDim2.new(0.281995118, 0, 0.15486607, 0)
+Admin.Font = Enum.Font.RobotoCondensed
+Admin.Text = "Cmd-X Admin"
+Admin.TextColor3 = Color3.fromRGB(255, 255, 255)
+Admin.TextScaled = true
+Admin.TextSize = 14.000
+Admin.TextWrapped = true
+
+UICorner_28.Parent = Admin
+
+MM2.Name = "MM2"
+MM2.Parent = GameFrame
+MM2.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+MM2.Position = UDim2.new(0.358308911, 0, 0.219637945, 0)
+MM2.Size = UDim2.new(0.281995118, 0, 0.15486607, 0)
+MM2.Font = Enum.Font.RobotoCondensed
+MM2.Text = "Murder Mystery 2"
+MM2.TextColor3 = Color3.fromRGB(255, 255, 255)
+MM2.TextScaled = true
+MM2.TextSize = 14.000
+MM2.TextWrapped = true
+
+UICorner_29.Parent = MM2
+
+finge.Name = "finge"
+finge.Parent = GameFrame
+finge.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+finge.Position = UDim2.new(0.674325347, 0, 0.223183051, 0)
+finge.Size = UDim2.new(0.281995118, 0, 0.15486607, 0)
+finge.Font = Enum.Font.RobotoCondensed
+finge.Text = "Finger"
+finge.TextColor3 = Color3.fromRGB(255, 255, 255)
+finge.TextScaled = true
+finge.TextSize = 14.000
+finge.TextWrapped = true
+
+UICorner_30.Parent = finge
+
+Dex.Name = "Dex"
+Dex.Parent = GameFrame
+Dex.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Dex.Position = UDim2.new(0.671704531, 0, 0.431600094, 0)
+Dex.Size = UDim2.new(0.281995118, 0, 0.15486607, 0)
+Dex.Font = Enum.Font.RobotoCondensed
+Dex.Text = "Dex Explorer"
+Dex.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dex.TextScaled = true
+Dex.TextSize = 14.000
+Dex.TextWrapped = true
+
+UICorner_31.Parent = Dex
+
+Car.Name = "Car"
+Car.Parent = GameFrame
+Car.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Car.Position = UDim2.new(0.040048562, 0, 0.223183051, 0)
+Car.Size = UDim2.new(0.281995118, 0, 0.15486607, 0)
+Car.Font = Enum.Font.RobotoCondensed
+Car.Text = "Car Gui"
+Car.TextColor3 = Color3.fromRGB(255, 255, 255)
+Car.TextScaled = true
+Car.TextSize = 14.000
+Car.TextWrapped = true
+
+UICorner_32.Parent = Car
+
+AboutFrame.Name = "AboutFrame"
+AboutFrame.Parent = Main
+AboutFrame.BackgroundColor3 = Color3.fromRGB(193, 5, 255)
+AboutFrame.Position = UDim2.new(0.139705881, 0, 0.118721463, 0)
+AboutFrame.Size = UDim2.new(0.860294104, 0, 0.881278515, 0)
+AboutFrame.Visible = false
+
+UICorner_33.Parent = AboutFrame
+
+Owner.Name = "Owner"
+Owner.Parent = AboutFrame
+Owner.BackgroundColor3 = Color3.fromRGB(101, 0, 152)
+Owner.Position = UDim2.new(0.278546095, 0, 0.0402348451, 0)
+Owner.Size = UDim2.new(0.42360118, 0, 0.179309577, 0)
+Owner.Text = "By: LLaynx"
+Owner.TextColor3 = Color3.fromRGB(0, 0, 0)
+Owner.TextScaled = true
+Owner.TextSize = 14.000
+Owner.TextWrapped = true
+
+UICorner_34.Parent = Owner
+
+Dc.Name = "Dc"
+Dc.Parent = AboutFrame
+Dc.BackgroundColor3 = Color3.fromRGB(101, 0, 152)
+Dc.Position = UDim2.new(0.181552619, 0, 0.273354113, 0)
+Dc.Size = UDim2.new(0.620575726, 0, 0.179309577, 0)
+Dc.Text = "Discord: pfyMAVGdBw"
+Dc.TextColor3 = Color3.fromRGB(0, 0, 0)
+Dc.TextScaled = true
+Dc.TextSize = 14.000
+Dc.TextWrapped = true
+
+UICorner_35.Parent = Dc
+
+Yout.Name = "Yout"
+Yout.Parent = AboutFrame
+Yout.BackgroundColor3 = Color3.fromRGB(101, 0, 152)
+Yout.Position = UDim2.new(0.0239318889, 0, 0.477546901, 0)
+Yout.Size = UDim2.new(0.948866546, 0, 0.179309577, 0)
+Yout.Text = "YouTube: UC2c2A8ARxX2t5nEUsalqAUw"
+Yout.TextColor3 = Color3.fromRGB(0, 0, 0)
+Yout.TextScaled = true
+Yout.TextSize = 14.000
+Yout.TextWrapped = true
+
+UICorner_36.Parent = Yout
+
+Aboutdsd.Name = "Aboutdsd"
+Aboutdsd.Parent = AboutFrame
+Aboutdsd.BackgroundColor3 = Color3.fromRGB(101, 0, 152)
+Aboutdsd.Position = UDim2.new(0.0192308184, 0, 0.71299237, 0)
+Aboutdsd.Size = UDim2.new(0.948866546, 0, 0.179309577, 0)
+Aboutdsd.Text = "Updates Will Be Once A Week"
+Aboutdsd.TextColor3 = Color3.fromRGB(0, 0, 0)
+Aboutdsd.TextScaled = true
+Aboutdsd.TextSize = 14.000
+Aboutdsd.TextWrapped = true
+
+UICorner_37.Parent = Aboutdsd
+
+Version.Name = "Version"
+Version.Parent = Main
+Version.BackgroundColor3 = Color3.fromRGB(101, 0, 152)
+Version.BackgroundTransparency = 1.000
+Version.Position = UDim2.new(0.875, 0, 0, 0)
+Version.Size = UDim2.new(0.113970585, 0, 0.111872144, 0)
+Version.Font = Enum.Font.SourceSans
+Version.Text = "V 0.1"
+Version.TextColor3 = Color3.fromRGB(0, 0, 0)
+Version.TextScaled = true
+Version.TextSize = 14.000
+Version.TextWrapped = true
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0, 0, 0.00228310493, 0)
+Close.Size = UDim2.new(0.0882352963, 0, 0.107305937, 0)
+Close.Font = Enum.Font.SourceSans
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close.TextScaled = true
+Close.TextSize = 14.000
+Close.TextWrapped = true
+
+Open.Name = "Open"
+Open.Parent = BaNaNa
+Open.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
+Open.Position = UDim2.new(-0, 0, 0.606999993, 0)
+Open.Size = UDim2.new(0.0390320048, 0, 0.078369908, 0)
+Open.Visible = false
+Open.Font = Enum.Font.SourceSans
+Open.Text = "BaNaNA"
+Open.TextColor3 = Color3.fromRGB(0, 0, 0)
+Open.TextScaled = true
+Open.TextSize = 14.000
+Open.TextWrapped = true
+
+UICorner_38.Parent = Open
+
+--Scripts
+
+CommandButton.MouseButton1Click:Connect(function()
+	AboutFrame.Visible = false
+	GameFrame.Visible = false
+	CommandFrame.Visible = true
+end)
+
+GameButton.MouseButton1Click:Connect(function()
+	AboutFrame.Visible = false
+	GameFrame.Visible = true
+	CommandFrame.Visible = false
+end)
+
+AboutButton.MouseButton1Click:Connect(function()
+	AboutFrame.Visible = true
+	GameFrame.Visible = false
+	CommandFrame.Visible = false
+end)
+
+Speed.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = SpeedText.Text
+end)
+
+jumpPow.MouseButton1Click:Connect(function()
+	game.Players.LocalPlayer.Character.Humanoid.JumpPower = JumpText.Text
+end)
+
+Close.MouseButton1Click:Connect(function()
+	Main.Visible = false
+	Open.Visible = true
+end)
+
+Open.MouseButton1Click:Connect(function()
+	Main.Visible = true
+	Open.Visible = false
+end)
+
+Login.MouseButton1Click:Connect(function()
+	if Passwrd.Text == "b123" then
+		game.StarterGui:SetCore("SendNotification", {Title="By: LLaynx"; Text="Thank you for choosing us"; Duration=5;})
+		LoginFrame.Visible = false
+		Main.Visible = true
+	else
+		Login.Text = "Invalid Password"
+		wait(2.5)
+		Login.Text = "Login"
+	end
+end)
+
+Car.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/MonkoTubeYT/carscript/master/!carscript.lua',true))()
+end)
+
+Dex.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Dex Explorer V2.txt"))()
+end)
+
+finge.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yakalats/finger/main/warps",true))()
+end)
+
+MM2.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yakalats/mm34/main/dcvcas",true))()
+end)
+
+Admin.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+Animalsim.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/jess-dzn/Epic-roblox-hack/main/AnimalSimulator", true))()
+end)
+
+UwU.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/OwlHub.txt"))()
+end)
+
+isl.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yakalats/sid/main/dascv"))()
+end)
+
+aut.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yakalats/aut/main/auts"))()
+end)
+
+Fly.MouseButton1Click:Connect(function()
+	repeat wait() 
+	until game.Players.LocalPlayer and game.Players.LocalPlayer.Character and game.Players.LocalPlayer.Character:findFirstChild("HumanoidRootPart") and game.Players.LocalPlayer.Character:findFirstChild("Humanoid") 
+	local mouse = game.Players.LocalPlayer:GetMouse() 
+	repeat wait() until mouse
+	local plr = game.Players.LocalPlayer 
+	local torso = plr.Character.HumanoidRootPart 
+	local flying = true
+	local deb = true 
+	local ctrl = {f = 0, b = 0, l = 0, r = 0} 
+	local lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+	local maxspeed = 50 
+	local speed = 0 
+
+	function Fly() 
+		local bg = Instance.new("BodyGyro", torso) 
+		bg.P = 9e4 
+		bg.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
+		bg.cframe = torso.CFrame 
+		local bv = Instance.new("BodyVelocity", torso) 
+		bv.velocity = Vector3.new(0,0.1,0) 
+		bv.maxForce = Vector3.new(9e9, 9e9, 9e9) 
+		repeat wait() 
+			plr.Character.Humanoid.PlatformStand = true 
+			if ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0 then 
+				speed = speed+.5+(speed/maxspeed) 
+				if speed > maxspeed then 
+					speed = maxspeed 
+				end 
+			elseif not (ctrl.l + ctrl.r ~= 0 or ctrl.f + ctrl.b ~= 0) and speed ~= 0 then 
+				speed = speed-1 
+				if speed < 0 then 
+					speed = 0 
+				end 
+			end 
+			if (ctrl.l + ctrl.r) ~= 0 or (ctrl.f + ctrl.b) ~= 0 then 
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (ctrl.f+ctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(ctrl.l+ctrl.r,(ctrl.f+ctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+				lastctrl = {f = ctrl.f, b = ctrl.b, l = ctrl.l, r = ctrl.r} 
+			elseif (ctrl.l + ctrl.r) == 0 and (ctrl.f + ctrl.b) == 0 and speed ~= 0 then 
+				bv.velocity = ((game.Workspace.CurrentCamera.CoordinateFrame.lookVector * (lastctrl.f+lastctrl.b)) + ((game.Workspace.CurrentCamera.CoordinateFrame * CFrame.new(lastctrl.l+lastctrl.r,(lastctrl.f+lastctrl.b)*.2,0).p) - game.Workspace.CurrentCamera.CoordinateFrame.p))*speed 
+			else 
+				bv.velocity = Vector3.new(0,0.1,0) 
+			end 
+			bg.cframe = game.Workspace.CurrentCamera.CoordinateFrame * CFrame.Angles(-math.rad((ctrl.f+ctrl.b)*50*speed/maxspeed),0,0) 
+		until not flying 
+		ctrl = {f = 0, b = 0, l = 0, r = 0} 
+		lastctrl = {f = 0, b = 0, l = 0, r = 0} 
+		speed = 0 
+		bg:Destroy() 
+		bv:Destroy() 
+		plr.Character.Humanoid.PlatformStand = false 
+	end 
+	mouse.KeyDown:connect(function(key) 
+		if key:lower() == "j" then 
+			if flying then flying = false 
+			else 
+				flying = true 
+				Fly() 
+			end 
+		elseif key:lower() == "w" then 
+			ctrl.f = 1 
+		elseif key:lower() == "s" then 
+			ctrl.b = -1 
+		elseif key:lower() == "a" then 
+			ctrl.l = -1 
+		elseif key:lower() == "d" then 
+			ctrl.r = 1 
+		end 
+	end) 
+	mouse.KeyUp:connect(function(key) 
+		if key:lower() == "w" then 
+			ctrl.f = 0 
+		elseif key:lower() == "s" then 
+			ctrl.b = 0 
+		elseif key:lower() == "a" then 
+			ctrl.l = 0 
+		elseif key:lower() == "d" then 
+			ctrl.r = 0 
+		end 
+	end)
+	Fly()
+end)
+
+Tp.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/Click Teleport.txt"))()
+end)
+
+Afk.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/anti-afk via autofocus.txt"))()
+end)
+
+character = game:GetService("Players").LocalPlayer.Character
+pointLight = Instance.new("PointLight")
+local Onf = false
+
+Lig.MouseButton1Click:Connect(function()
+	pointLight.Parent = character.HumanoidRootPart
+	if Onf == false then
+		pointLight.Enabled = true
+		Onf = true
+		script.Parent.Text = "Light: On"
+	else
+		pointLight.Enabled = false
+		Onf = false
+		script.Parent.Text = "Light: Off"
+	end
+end)
+
+Grav.MouseButton1Click:Connect(function()
+	if workspace.Gravity > 0 then
+		workspace.Gravity = 0
+		script.Parent.Text = "Gravity: On"
+
+	else 
+		workspace.Gravity = 196.2
+		script.Parent.Text = "Gravity: Off"
+	end
+end)
+
+local xrayOn = false
+
+Xray.MouseButton1Click:Connect(function(inp, processed)
+
+	xrayOn = not xrayOn
+
+	for i, descendant in pairs(workspace:GetDescendants()) do
+
+		if descendant:IsA("BasePart") then
+
+			if xrayOn then
+
+				if not descendant:FindFirstChild("OriginalTransparency") then
+
+					local originalTransparency = Instance.new("NumberValue")
+					originalTransparency.Name = "OriginalTransparency"
+					originalTransparency.Value = descendant.Transparency
+					originalTransparency.Parent = descendant
+				end
+
+				descendant.Transparency = 0.5
+				Xray.Text = "XRay: On"
+
+			else
+				descendant.Transparency = descendant.OriginalTransparency.Value
+				Xray.Text = "XRay: Off"
+			end
+		end
+	end
+end)
+
+Noclip.MouseButton1Click:Connect(function()
+	local LocalPlayer = game:GetService("Players").LocalPlayer
+	local Character = LocalPlayer.Character
+	local Humanoid = Character:FindFirstChildOfClass("Humanoid")
+
+	function rm()
+		for i,v in pairs(Character:GetDescendants()) do
+			if v:IsA("BasePart") then
+				if v.Name == "Handle" or v.Name == "Head" then
+					if Character.Head:FindFirstChild("OriginalSize") then
+						Character.Head.OriginalSize:Destroy()
+					end
+				else
+					for i,cav in pairs(v:GetDescendants()) do
+						if cav:IsA("Attachment") then
+							if cav:FindFirstChild("OriginalPosition") then
+								cav.OriginalPosition:Destroy()  
+							end
+						end
+					end
+					v:FindFirstChild("OriginalSize"):Destroy()
+					if v:FindFirstChild("AvatarPartScaleType") then
+						v:FindFirstChild("AvatarPartScaleType"):Destroy()
+					end
+				end
+			end
+		end
+	end
+
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("BodyProportionScale"):Destroy()
+	wait(1)
+
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("BodyHeightScale"):Destroy()
+	wait(1)
+
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("BodyWidthScale"):Destroy()
+	wait(1)
+
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("BodyDepthScale"):Destroy()
+	wait(1)
+
+	rm()
+	wait(0.5)
+	Humanoid:FindFirstChild("HeadScale"):Destroy()
+	wait(1)
+end)
+
+FreeAnim.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yakalats/animsd/main/anims", true))()
+end)
+
+InfiniteJumpEnabled = true 
+nfBut.MouseButton1Click:Connect(function()
+	game:GetService('UserInputService').JumpRequest:connect(function() 
+		if InfiniteJumpEnabled then 
+			game:GetService'Players'.LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState('Jumping')end 
+	end)
+end)
