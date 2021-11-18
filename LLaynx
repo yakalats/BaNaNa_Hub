@@ -820,17 +820,16 @@ Afk.MouseButton1Click:Connect(function()
 end)
 
 character = game:GetService("Players").LocalPlayer.Character
-pointLight = Instance.new("PointLight")
 local Onf = false
 
 Lig.MouseButton1Click:Connect(function()
-	pointLight.Parent = character.HumanoidRootPart
 	if Onf == false then
-		pointLight.Enabled = true
-		Onf = true
+                pointLight = Instance.new("PointLight")
+		pointLight.Parent = character.HumanoidRootPart
+                Onf = true
 		Lig.Text = "Light: On"
 	else
-		pointLight.Enabled = false
+		pointLight:Destroy()
 		Onf = false
 		Lig.Text = "Light: Off"
 	end
