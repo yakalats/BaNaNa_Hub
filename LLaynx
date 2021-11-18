@@ -828,22 +828,22 @@ Lig.MouseButton1Click:Connect(function()
 	if Onf == false then
 		pointLight.Enabled = true
 		Onf = true
-		script.Parent.Text = "Light: On"
+		Lig.Text = "Light: On"
 	else
 		pointLight.Enabled = false
 		Onf = false
-		script.Parent.Text = "Light: Off"
+		Lig.Text = "Light: Off"
 	end
 end)
 
 Grav.MouseButton1Click:Connect(function()
 	if workspace.Gravity > 0 then
 		workspace.Gravity = 0
-		script.Parent.Text = "Gravity: On"
+		Grav.Text = "Gravity: On"
 
 	else 
 		workspace.Gravity = 196.2
-		script.Parent.Text = "Gravity: Off"
+		Grav.Text = "Gravity: Off"
 	end
 end)
 
