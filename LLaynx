@@ -99,6 +99,7 @@ LoginFrame.Position = UDim2.new(0.470725983, 0, 0.399686515, 0)
 LoginFrame.Size = UDim2.new(0.111631535, 0, 0.32601881, 0)
 LoginFrame.Draggable = true
 LoginFrame.Active = true
+LoginFrame.Visible = false
 
 Title.Name = "Title"
 Title.Parent = LoginFrame
@@ -154,9 +155,8 @@ Main.Parent = BaNaNa
 Main.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
 Main.Position = UDim2.new(0.390320003, 0, 0.313479602, 0)
 Main.Size = UDim2.new(0.270860076, 0, 0.460815042, 0)
-Main.Visible = false
+Main.Visible = true
 Main.Draggable = true
-Main.Active = true
 
 UICorner_4.Parent = Main
 
