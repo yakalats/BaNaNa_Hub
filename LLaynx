@@ -822,19 +822,6 @@ end)
 character = game:GetService("Players").LocalPlayer.Character
 local Onf = false
 
-Lig.MouseButton1Click:Connect(function()
-	if Onf == false then
-                pointLight = Instance.new("PointLight")
-		pointLight.Parent = character.HumanoidRootPart
-                Onf = true
-		Lig.Text = "Light: On"
-	else
-		pointLight:Destroy()
-		Onf = false
-		Lig.Text = "Light: Off"
-	end
-end)
-
 Grav.MouseButton1Click:Connect(function()
 	if workspace.Gravity > 0 then
 		workspace.Gravity = 0
