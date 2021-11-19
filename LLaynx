@@ -1,3 +1,4 @@
+
 -- By LLaynx
 
 -- Instances:
@@ -99,7 +100,6 @@ LoginFrame.Position = UDim2.new(0.470725983, 0, 0.399686515, 0)
 LoginFrame.Size = UDim2.new(0.111631535, 0, 0.32601881, 0)
 LoginFrame.Draggable = true
 LoginFrame.Active = true
-LoginFrame.Visible = false
 
 Title.Name = "Title"
 Title.Parent = LoginFrame
@@ -155,8 +155,9 @@ Main.Parent = BaNaNa
 Main.BackgroundColor3 = Color3.fromRGB(170, 0, 255)
 Main.Position = UDim2.new(0.390320003, 0, 0.313479602, 0)
 Main.Size = UDim2.new(0.270860076, 0, 0.460815042, 0)
-Main.Visible = true
+Main.Visible = false
 Main.Draggable = true
+Main.Active = true
 
 UICorner_4.Parent = Main
 
@@ -195,13 +196,13 @@ CommandFrame.Size = UDim2.new(0.860294104, 0, 0.881278515, 0)
 
 UICorner_7.Parent = CommandFrame
 
-nfBut.Name = "İnfBut"
+nfBut.Name = "nfBut"
 nfBut.Parent = CommandFrame
 nfBut.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 nfBut.Position = UDim2.new(0.042185206, 0, 0.0412615053, 0)
 nfBut.Size = UDim2.new(0.258547008, 0, 0.139896378, 0)
 nfBut.Font = Enum.Font.RobotoCondensed
-nfBut.Text = "İnf Jump"
+nfBut.Text = "Inf Jump"
 nfBut.TextColor3 = Color3.fromRGB(255, 255, 255)
 nfBut.TextScaled = true
 nfBut.TextSize = 14.000
@@ -265,13 +266,13 @@ Grav.TextWrapped = true
 
 UICorner_12.Parent = Grav
 
-Lig.Name = "Lig"
+Lig.Name = "Flin"
 Lig.Parent = CommandFrame
 Lig.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
 Lig.Position = UDim2.new(0.681074142, 0, 0.238152698, 0)
 Lig.Size = UDim2.new(0.258547008, 0, 0.139896378, 0)
 Lig.Font = Enum.Font.RobotoCondensed
-Lig.Text = "Light: Off"
+Lig.Text = "FLing Gui"
 Lig.TextColor3 = Color3.fromRGB(255, 255, 255)
 Lig.TextScaled = true
 Lig.TextSize = 14.000
@@ -821,6 +822,11 @@ end)
 
 character = game:GetService("Players").LocalPlayer.Character
 local Onf = false
+Lights = Instance.new("PointLight")
+
+Lig.MouseButton1Click:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/yakalats/fling/main/flings"))()
+end)
 
 Grav.MouseButton1Click:Connect(function()
 	if workspace.Gravity > 0 then
