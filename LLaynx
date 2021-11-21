@@ -84,6 +84,22 @@ local Version = Instance.new("TextLabel")
 local Close = Instance.new("TextButton")
 local Open = Instance.new("TextButton")
 local UICorner_38 = Instance.new("UICorner")
+local exec = Instance.new("TextButton")
+local Execut = Instance.new("TextButton")
+local ExecutTextbox = Instance.new("TextBox")
+local ExecutFrame = Instance.new("Frame")
+local Clear = Instance.new("TextButton")
+local UICorner_39 = Instance.new("UICorner")
+local UICorner_40 = Instance.new("UICorner")
+local UICorner_41 = Instance.new("UICorner")
+local UICorner_42 = Instance.new("UICorner")
+local UICorner_43 = Instance.new("UICorner")
+
+
+
+
+
+
 
 --Properties:
 
@@ -395,7 +411,7 @@ UICorner_21.Parent = GameButton
 AboutButton.Name = "AboutButton"
 AboutButton.Parent = Main
 AboutButton.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
-AboutButton.Position = UDim2.new(0.0165441185, 0, 0.452054799, 0)
+AboutButton.Position = UDim2.new(0.0165441185, 0, 0.594911933, 0)
 AboutButton.Size = UDim2.new(0.110294111, 0, 0.12328767, 0)
 AboutButton.Font = Enum.Font.RobotoCondensed
 AboutButton.Text = "About"
@@ -643,24 +659,106 @@ Open.TextWrapped = true
 
 UICorner_38.Parent = Open
 
+ExecutFrame.Name = "ExecutFrame"
+ExecutFrame.Parent = Main
+ExecutFrame.BackgroundColor3 = Color3.fromRGB(193, 5, 255)
+ExecutFrame.Position = UDim2.new(0.139705881, 0, 0.118721463, 0)
+ExecutFrame.Size = UDim2.new(0.860294104, 0, 0.881278515, 0)
+ExecutFrame.Visible = false
+
+UICorner_38.Parent = ExecutFrame
+
+exec.Name = "exec"
+exec.Parent = ExecutFrame
+exec.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+exec.Position = UDim2.new(0.041154772, 0, 0.817872047, 0)
+exec.Size = UDim2.new(0.281995118, 0, 0.15486607, 0)
+exec.Font = Enum.Font.RobotoCondensed
+exec.Text = "Execute"
+exec.TextColor3 = Color3.fromRGB(255, 255, 255)
+exec.TextScaled = true
+exec.TextSize = 14.000
+exec.TextWrapped = true
+
+UICorner_39.Parent = exec
+
+Clear.Name = "Clear"
+Clear.Parent = ExecutFrame
+Clear.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Clear.Position = UDim2.new(0.670975208, 0, 0.817872047, 0)
+Clear.Size = UDim2.new(0.281995118, 0, 0.15486607, 0)
+Clear.Font = Enum.Font.RobotoCondensed
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextScaled = true
+Clear.TextSize = 14.000
+Clear.TextWrapped = true
+
+UICorner_40.Parent = Clear
+
+ExecutTextbox.Parent = ExecutFrame
+ExecutTextbox.BackgroundColor3 = Color3.fromRGB(101, 0, 152)
+ExecutTextbox.Position = UDim2.new(0.026924029, 0, 0.0404814817, 0)
+ExecutTextbox.Size = UDim2.new(0.938030422, 0, 0.768055439, 0)
+ExecutTextbox.Font = Enum.Font.SourceSans
+ExecutTextbox.Text = "--Script Here"
+ExecutTextbox.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecutTextbox.TextSize = 14.000
+ExecutTextbox.TextXAlignment = Enum.TextXAlignment.Left
+ExecutTextbox.TextYAlignment = Enum.TextYAlignment.Top
+ExecutTextbox.RichText = true
+
+UICorner_41.Parent = ExecutTextbox
+
+Execut.Name = "Execut"
+Execut.Parent = Main
+Execut.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
+Execut.Position = UDim2.new(0.0165441185, 0, 0.44525212, 0)
+Execut.Size = UDim2.new(0.110294111, 0, 0.12328767, 0)
+Execut.Font = Enum.Font.RobotoCondensed
+Execut.Text = "Executer"
+Execut.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execut.TextScaled = true
+Execut.TextSize = 14.000
+Execut.TextWrapped = true
+
+UICorner_42.Parent = Execut
+
 --Scripts
+exec.MouseButton1Click:Connect(function()
+assert(loadstring(ExecutTextbox.Text))()
+end)
+
+Clear.MouseButton1Click:Connect(function()
+	ExecutTextbox.Text = ""
+end)
 
 CommandButton.MouseButton1Click:Connect(function()
 	AboutFrame.Visible = false
 	GameFrame.Visible = false
 	CommandFrame.Visible = true
+	ExecutFrame.Visible = false
 end)
 
 GameButton.MouseButton1Click:Connect(function()
 	AboutFrame.Visible = false
 	GameFrame.Visible = true
 	CommandFrame.Visible = false
+	ExecutFrame.Visible = false
 end)
 
 AboutButton.MouseButton1Click:Connect(function()
 	AboutFrame.Visible = true
 	GameFrame.Visible = false
 	CommandFrame.Visible = false
+	ExecutFrame.Visible = false
+end)
+
+Execut.MouseButton1Click:Connect(function()
+	AboutFrame.Visible = false
+	GameFrame.Visible = false
+	CommandFrame.Visible = false
+	ExecutFrame.Visible = true
 end)
 
 Speed.MouseButton1Click:Connect(function()
